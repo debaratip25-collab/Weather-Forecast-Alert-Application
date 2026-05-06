@@ -185,7 +185,7 @@ def main() -> None:
             chart_path = f"outputs/chart_{result['city'].replace(' ', '_')}.png"
             plot_path = plot_temp_humidity(result["df_window"], chart_path)
             st.write("### Chart")
-            st.image(plot_path, caption=plot_path, use_container_width=True)
+            st.image(plot_path, caption=plot_path, use_column_width=True)
         except Exception as e:
             st.warning(f"Plot failed: {e}")
 
