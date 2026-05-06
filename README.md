@@ -5,7 +5,7 @@ A modular **Python + Streamlit** dashboard that fetches weather forecasts (OpenW
 ---
 
 ## Live Demo / Video
-- Live App: 
+- Live App: https://weather-forecast-alert-application.streamlit.app/
 - Demo Video (96 sec): https://drive.google.com/file/d/1_20srfv9uFC2p3VdRkiB1EB8NLrTFO5m/view?usp=drive_link
 
 ---
