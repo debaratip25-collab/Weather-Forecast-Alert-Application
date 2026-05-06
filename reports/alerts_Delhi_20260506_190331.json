@@ -1,0 +1,46 @@
+{
+  "city": "Delhi",
+  "generated_at": "2026-05-06T19:03:31.572429",
+  "alerts": [
+    {
+      "type": "HIGH_TEMPERATURE",
+      "severity": "HIGH",
+      "message": "High temperature expected (max 36.5\u00b0C) in next 24h.",
+      "details": {
+        "max_temp_c": 36.5,
+        "high_temp_c": 35.0,
+        "high_humidity_pct": 85.0,
+        "rain_alert_enabled": true,
+        "forecast_hours": 24
+      }
+    },
+    {
+      "type": "RAIN",
+      "severity": "MEDIUM",
+      "message": "Rain expected (total ~1.2 mm) in next 24h.",
+      "details": {
+        "total_rain_mm": 1.2,
+        "high_temp_c": 35.0,
+        "high_humidity_pct": 85.0,
+        "rain_alert_enabled": true,
+        "forecast_hours": 24
+      }
+    },
+    {
+      "type": "STORM",
+      "severity": "HIGH",
+      "message": "Thunderstorm conditions detected in forecast window.",
+      "details": {
+        "weather_mains": [
+          "clouds",
+          "rain",
+          "thunderstorm"
+        ],
+        "high_temp_c": 35.0,
+        "high_humidity_pct": 85.0,
+        "rain_alert_enabled": true,
+        "forecast_hours": 24
+      }
+    }
+  ]
+}

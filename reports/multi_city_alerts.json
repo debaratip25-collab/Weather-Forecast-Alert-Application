@@ -1,0 +1,230 @@
+{
+  "generated_at": "2026-05-06T19:06:32.245034",
+  "mode": "api",
+  "source": "sample_cities.csv",
+  "thresholds": {
+    "forecast_hours": 24,
+    "high_temp_c": 35.0,
+    "high_humidity_pct": 85.0,
+    "rain_alert_enabled": true
+  },
+  "city_results": [
+    {
+      "city": "Kolkata",
+      "summary": {
+        "window_rows": 9,
+        "max_temp_c": 37.33,
+        "min_temp_c": 26.63,
+        "avg_humidity_pct": 65.55555555555556,
+        "total_rain_mm": 18.449999999999996,
+        "weather_mains": [
+          "Clouds",
+          "Rain"
+        ]
+      },
+      "alerts": [
+        {
+          "type": "HIGH_TEMPERATURE",
+          "severity": "HIGH",
+          "message": "High temperature expected (max 37.3\u00b0C) in next 24h.",
+          "details": {
+            "max_temp_c": 37.33,
+            "high_temp_c": 35.0,
+            "high_humidity_pct": 85.0,
+            "rain_alert_enabled": true,
+            "forecast_hours": 24
+          }
+        },
+        {
+          "type": "RAIN",
+          "severity": "MEDIUM",
+          "message": "Rain expected (total ~18.4 mm) in next 24h.",
+          "details": {
+            "total_rain_mm": 18.449999999999996,
+            "high_temp_c": 35.0,
+            "high_humidity_pct": 85.0,
+            "rain_alert_enabled": true,
+            "forecast_hours": 24
+          }
+        }
+      ]
+    },
+    {
+      "city": "Delhi",
+      "summary": {
+        "window_rows": 9,
+        "max_temp_c": 38.8,
+        "min_temp_c": 24.74,
+        "avg_humidity_pct": 25.11111111111111,
+        "total_rain_mm": 2.9300000000000006,
+        "weather_mains": [
+          "Clear",
+          "Clouds",
+          "Rain"
+        ]
+      },
+      "alerts": [
+        {
+          "type": "HIGH_TEMPERATURE",
+          "severity": "HIGH",
+          "message": "High temperature expected (max 38.8\u00b0C) in next 24h.",
+          "details": {
+            "max_temp_c": 38.8,
+            "high_temp_c": 35.0,
+            "high_humidity_pct": 85.0,
+            "rain_alert_enabled": true,
+            "forecast_hours": 24
+          }
+        },
+        {
+          "type": "RAIN",
+          "severity": "MEDIUM",
+          "message": "Rain expected (total ~2.9 mm) in next 24h.",
+          "details": {
+            "total_rain_mm": 2.9300000000000006,
+            "high_temp_c": 35.0,
+            "high_humidity_pct": 85.0,
+            "rain_alert_enabled": true,
+            "forecast_hours": 24
+          }
+        }
+      ]
+    },
+    {
+      "city": "Mumbai",
+      "summary": {
+        "window_rows": 9,
+        "max_temp_c": 30.99,
+        "min_temp_c": 28.24,
+        "avg_humidity_pct": 71.33333333333333,
+        "total_rain_mm": 0.0,
+        "weather_mains": [
+          "Clear",
+          "Clouds"
+        ]
+      },
+      "alerts": [
+        {
+          "type": "NO_ALERTS",
+          "severity": "LOW",
+          "message": "No alert thresholds crossed in next 24h.",
+          "details": {
+            "high_temp_c": 35.0,
+            "high_humidity_pct": 85.0,
+            "rain_alert_enabled": true,
+            "forecast_hours": 24
+          }
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "summary": {
+        "window_rows": 9,
+        "max_temp_c": 14.74,
+        "min_temp_c": 7.85,
+        "avg_humidity_pct": 69.0,
+        "total_rain_mm": 0.7999999999999999,
+        "weather_mains": [
+          "Clouds",
+          "Rain"
+        ]
+      },
+      "alerts": [
+        {
+          "type": "RAIN",
+          "severity": "MEDIUM",
+          "message": "Rain expected (total ~0.8 mm) in next 24h.",
+          "details": {
+            "total_rain_mm": 0.7999999999999999,
+            "high_temp_c": 35.0,
+            "high_humidity_pct": 85.0,
+            "rain_alert_enabled": true,
+            "forecast_hours": 24
+          }
+        }
+      ]
+    },
+    {
+      "city": "New York",
+      "summary": {
+        "window_rows": 9,
+        "max_temp_c": 20.04,
+        "min_temp_c": 11.29,
+        "avg_humidity_pct": 71.44444444444444,
+        "total_rain_mm": 3.46,
+        "weather_mains": [
+          "Clouds",
+          "Rain"
+        ]
+      },
+      "alerts": [
+        {
+          "type": "RAIN",
+          "severity": "MEDIUM",
+          "message": "Rain expected (total ~3.5 mm) in next 24h.",
+          "details": {
+            "total_rain_mm": 3.46,
+            "high_temp_c": 35.0,
+            "high_humidity_pct": 85.0,
+            "rain_alert_enabled": true,
+            "forecast_hours": 24
+          }
+        }
+      ]
+    },
+    {
+      "city": "Tokyo",
+      "summary": {
+        "window_rows": 9,
+        "max_temp_c": 24.39,
+        "min_temp_c": 17.86,
+        "avg_humidity_pct": 70.0,
+        "total_rain_mm": 0.0,
+        "weather_mains": [
+          "Clouds"
+        ]
+      },
+      "alerts": [
+        {
+          "type": "NO_ALERTS",
+          "severity": "LOW",
+          "message": "No alert thresholds crossed in next 24h.",
+          "details": {
+            "high_temp_c": 35.0,
+            "high_humidity_pct": 85.0,
+            "rain_alert_enabled": true,
+            "forecast_hours": 24
+          }
+        }
+      ]
+    },
+    {
+      "city": "Sydney",
+      "summary": {
+        "window_rows": 9,
+        "max_temp_c": 16.0,
+        "min_temp_c": 10.44,
+        "avg_humidity_pct": 53.666666666666664,
+        "total_rain_mm": 0.0,
+        "weather_mains": [
+          "Clear",
+          "Clouds"
+        ]
+      },
+      "alerts": [
+        {
+          "type": "NO_ALERTS",
+          "severity": "LOW",
+          "message": "No alert thresholds crossed in next 24h.",
+          "details": {
+            "high_temp_c": 35.0,
+            "high_humidity_pct": 85.0,
+            "rain_alert_enabled": true,
+            "forecast_hours": 24
+          }
+        }
+      ]
+    }
+  ]
+}

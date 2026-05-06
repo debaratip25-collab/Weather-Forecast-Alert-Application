@@ -1,0 +1,10 @@
+dt_utc,temp_c,humidity_pct,wind_speed,weather_main,weather_desc,rain_3h_mm
+2026-05-06 15:00:00+00:00,30.99,70,4.87,Clouds,scattered clouds,0.0
+2026-05-06 18:00:00+00:00,30.25,72,4.22,Clouds,scattered clouds,0.0
+2026-05-06 21:00:00+00:00,29.16,76,5.11,Clouds,few clouds,0.0
+2026-05-07 00:00:00+00:00,28.24,75,4.23,Clear,clear sky,0.0
+2026-05-07 03:00:00+00:00,29.28,66,2.71,Clear,clear sky,0.0
+2026-05-07 06:00:00+00:00,30.73,63,4.81,Clouds,few clouds,0.0
+2026-05-07 09:00:00+00:00,29.99,72,8.65,Clouds,scattered clouds,0.0
+2026-05-07 12:00:00+00:00,29.98,75,8.76,Clouds,few clouds,0.0
+2026-05-07 15:00:00+00:00,29.99,73,3.02,Clouds,broken clouds,0.0

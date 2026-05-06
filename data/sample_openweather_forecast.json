@@ -1,0 +1,24 @@
+{
+  "city": { "name": "DemoCity" },
+  "list": [
+    {
+      "dt": 1767139200,
+      "main": { "temp": 36.5, "humidity": 88 },
+      "weather": [{ "main": "Rain", "description": "light rain" }],
+      "wind": { "speed": 5.2 },
+      "rain": { "3h": 1.2 }
+    },
+    {
+      "dt": 1767150000,
+      "main": { "temp": 35.2, "humidity": 86 },
+      "weather": [{ "main": "Clouds", "description": "broken clouds" }],
+      "wind": { "speed": 4.1 }
+    },
+    {
+      "dt": 1767160800,
+      "main": { "temp": 33.0, "humidity": 80 },
+      "weather": [{ "main": "Thunderstorm", "description": "thunderstorm" }],
+      "wind": { "speed": 8.0 }
+    }
+  ]
+}

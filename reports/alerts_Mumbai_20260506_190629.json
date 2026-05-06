@@ -1,0 +1,17 @@
+{
+  "city": "Mumbai",
+  "generated_at": "2026-05-06T19:06:29.618378",
+  "alerts": [
+    {
+      "type": "NO_ALERTS",
+      "severity": "LOW",
+      "message": "No alert thresholds crossed in next 24h.",
+      "details": {
+        "high_temp_c": 35.0,
+        "high_humidity_pct": 85.0,
+        "rain_alert_enabled": true,
+        "forecast_hours": 24
+      }
+    }
+  ]
+}

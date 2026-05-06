@@ -1,0 +1,30 @@
+{
+  "city": "Kolkata",
+  "generated_at": "2026-05-06T19:06:28.098086",
+  "alerts": [
+    {
+      "type": "HIGH_TEMPERATURE",
+      "severity": "HIGH",
+      "message": "High temperature expected (max 37.3\u00b0C) in next 24h.",
+      "details": {
+        "max_temp_c": 37.33,
+        "high_temp_c": 35.0,
+        "high_humidity_pct": 85.0,
+        "rain_alert_enabled": true,
+        "forecast_hours": 24
+      }
+    },
+    {
+      "type": "RAIN",
+      "severity": "MEDIUM",
+      "message": "Rain expected (total ~18.4 mm) in next 24h.",
+      "details": {
+        "total_rain_mm": 18.449999999999996,
+        "high_temp_c": 35.0,
+        "high_humidity_pct": 85.0,
+        "rain_alert_enabled": true,
+        "forecast_hours": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "city": "London",
+  "generated_at": "2026-05-06T19:06:30.226755",
+  "alerts": [
+    {
+      "type": "RAIN",
+      "severity": "MEDIUM",
+      "message": "Rain expected (total ~0.8 mm) in next 24h.",
+      "details": {
+        "total_rain_mm": 0.7999999999999999,
+        "high_temp_c": 35.0,
+        "high_humidity_pct": 85.0,
+        "rain_alert_enabled": true,
+        "forecast_hours": 24
+      }
+    }
+  ]
+}
